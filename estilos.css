@@ -54,7 +54,7 @@ body {
   background: #fce700;
   bottom: 50px;
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 800;
   height: 60px;
@@ -64,6 +64,9 @@ body {
   opacity: 0; /* El elemento empieza invisible */
   animation: fadeIn 1s forwards;
   animation-delay: 2s; /* El elemento aparecerá después de 60 segundos */
+  justify-content: center;
+  align-items: center;
+  
 }
 
 @keyframes fadeIn {
